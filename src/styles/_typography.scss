@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url('/font/LinBiolinum_R.otf') format('OpenType');
+}
+
+@mixin header-font {
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: $xxl;
+    color: $white;
+}
+
+@mixin title-font {
+    font-family: 'Linux Biolinum';
+    font-size: $xl;
+    color: $white;
+}
+
+@mixin body-font {
+    font-family: 'Linux Biolinum';
+    font-size: $large;
+    color: $black;
+}
+
+
+$font-xs: 12px;
+$font-small: 14px;
+$font-base: 16px;
+$font-large: 18px;
+$font-xxl: 20px;
+$font-xxxl: 24px;
+$font-xxxxl: 30px;
+$font-xxxxxl: 36px;
+$font-xxxxxxl: 48px;
+$font-xxxxxxxl: 60px;
+$font-xxxxxxxxl: 72px;
+
